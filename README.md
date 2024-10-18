@@ -30,6 +30,7 @@ By providing real-time word and character count as you type, and visually showin
 - **Countdown Indicators:** Displays how many characters you have left before reaching the platform's limit.
 - **Responsive Design:** Easy-to-use interface on both desktop and mobile devices.
 - **Clear and User-Friendly UI:** No distractions, just clean functionality to ensure your post fits perfectly.
+- **Restricted Input Handling:** Prevents users from entering the @ symbol and <script> tags. If either is entered, they are automatically deleted and a red error message alerts the user that these characters are not allowed.
 
 ## Demo
 
@@ -44,6 +45,7 @@ A live demo of the application is available at: [Word Analytics link](https://wo
 2. Start typing your post in the provided text area.
 3. As you type, you’ll see the word count, character count, and the remaining characters available for platforms like Instagram and Facebook.
 4. Adjust your post until it fits within the desired platform's character limit.
+5. If you attempt to type the @ symbol or any <script> tags, they will be automatically removed, and a red error message will inform you that these characters are not allowed for security and usability purposes.
 
 ## Technologies Used
 
@@ -60,7 +62,7 @@ A live demo of the application is available at: [Word Analytics link](https://wo
 
 ```bash
 wordanalytics/
-├── public/             # Static assets
+├── public/             # Static assets/not necessary
 ├── src/
 │   ├── components/     # React or Vue components
 │   ├── App.jsx         # Main app component for React
