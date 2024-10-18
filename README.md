@@ -7,12 +7,9 @@ WordAnalytics is a web app designed to simplify the process of writing social me
 - [Story Behind the Project](#story-behind-the-project)
 - [Features](#features)
 - [Demo](#demo)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Story Behind the Project
 
@@ -36,7 +33,8 @@ By providing real-time word and character count as you type, and visually showin
 
 ## Demo
 
-A live demo of the application is available at: [Your Demo Link Here](http//)
+A live demo of the application is available at: [Your Demo Link Here](https://word-analytics-web-application.vercel.app/
+)
 
 ![WordAnalytics Screenshot](./src/img/img.png)
 
