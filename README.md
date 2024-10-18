@@ -33,7 +33,7 @@ By providing real-time word and character count as you type, and visually showin
 
 ## Demo
 
-A live demo of the application is available at: [Your Demo Link Here](https://word-analytics-web-application.vercel.app/
+A live demo of the application is available at: [Word Analytics link](https://word-analytics-web-application.vercel.app/
 )
 
 ![WordAnalytics Screenshot](./src/img/img.png)
