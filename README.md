@@ -66,10 +66,8 @@ wordanalytics/
 ├── src/
 │   ├── components/     # React or Vue components
 │   ├── App.jsx         # Main app component for React
-│   ├── App.vue         # Main app component for Vue (depending on your build)
 │   ├── index.css       # Global styles
 │   ├── main.jsx        # Entry point for React
-│   ├── main.js         # Entry point for Vue
 ├── .gitignore          # Git ignore file
 ├── package.json        # Project metadata and scripts
 └── vite.config.js      # Vite configuration
